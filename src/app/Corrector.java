@@ -10,7 +10,7 @@ public class Corrector {
                 str = str.replace("b", "o");
             }
             count++;
-            stringBuilder.append(count).append(") ").append(str).append("\\n");
+            stringBuilder.append(count).append(") ").append(str).append("\n");
         }
         return stringBuilder.toString();
     }
